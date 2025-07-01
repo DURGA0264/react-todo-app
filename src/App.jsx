@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import TodoItems from "./components/TodoItems";
 import './App.css'
 function App(){
