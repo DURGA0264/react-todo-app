@@ -31,7 +31,7 @@ function App(){
     }
     return(
          <div id="app_container">
-            <div id="heading_container"><h1>MY TODO LIST</h1></div>
+            <div id="heading_container"><h1> &#128221; MY TODO LIST</h1></div>
             <div className="input_addbtn_container">
               <input type="text"  value={inputData}  autoFocus onChange={data} placeholder="Enter Your Task !" id="task_inputbox"/>
               <button onClick={handleAdd} id="add_button">ADD</button>
